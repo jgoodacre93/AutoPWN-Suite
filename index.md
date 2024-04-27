@@ -41,25 +41,25 @@ AutoPWN Suite uses nmap TCP-SYN scan to enumerate the host and detect the versio
 
 AutoPWN Suite has a very user friendly easy to read output.
 
-<script id="asciicast-509345" src="https://asciinema.org/a/509345.js" async></script>
+[![asciicast](https://asciinema.org/a/509345.svg)](https://asciinema.org/a/509345)
 
 
 ## Installation
 
-You can install it using pip. (sudo recommended)
-
-```
-sudo pip install autopwn-suite
-```
-
-OR
-
-You can clone the repo.
+You can clone the repo. (This is the recommended installation method as other methods are no longer maintained)
 
 ```
 git clone https://github.com/GamehunterKaan/AutoPWN-Suite.git
 cd AutoPWN-Suite
 sudo pip install -r requirements.txt
+```
+
+OR
+
+You can install it using pip. (sudo recommended)
+
+```
+sudo pip install autopwn-suite
 ```
 
 OR
